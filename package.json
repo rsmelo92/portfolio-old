@@ -13,7 +13,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -rf docs && mv build docs",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
