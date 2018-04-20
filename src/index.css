@@ -1,0 +1,25 @@
+/* Pallete:
+    Light Blue: #91BBE1 rgba(145, 187, 225, 1)
+    Cadet Green:#5B998B rgba(91, 153, 139, 1)
+    Sea Green:  #147769 rgba(20, 119, 105, 1)
+    Dark Olive: #45402F rgba(69, 64, 47, 1)
+    Light grey: #D0CECB rgba(208, 206, 203, 1)
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html,body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color:#45402F;
+    background: #fff;
+}
+a{
+    color:#91BBE1;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}

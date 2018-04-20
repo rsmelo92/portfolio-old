@@ -1,0 +1,67 @@
+.section-time-item{
+    width:100%;
+}
+.date-area,
+.job-area{
+    display: inline-block;
+}
+.date-area{
+    padding-top: 0;
+    line-height: 1.5;
+    margin-top: 10px;
+    width: 90px;
+    position: relative;
+    vertical-align: top;
+}
+.date-area:after{
+    content: " ";
+    position: absolute;
+    top: -12px;
+    right: -2.5px;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #5B998B;
+}
+.date-show{
+    margin: -20px 0;
+    color: rgba(0,0,0,.3);
+    font-style: italic;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+
+
+.job-area{
+    border-left: solid 1px #ccc;
+    padding-left: 30px;
+    width: 88%;
+}
+.job-holder{
+    border-bottom: solid 1px #f1f1f1;
+    padding-bottom: 25px;
+}
+.job-title{
+    margin: 8px 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 1.8em;
+}
+.job-subtitle{
+    margin: 0;
+}
+.job-tags-title{
+    font-size: 12px;
+}
+.job-tag{
+    background-color: #147769;
+    color: #fff;
+    display: inline-block;
+    padding: 1px 6px 3px;
+    text-align: center;
+    margin-right: 12px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
