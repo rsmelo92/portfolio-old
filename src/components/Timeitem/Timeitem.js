@@ -24,9 +24,9 @@ class Timeitem extends Component{
                                 }
                             </div>
                         </div>
-                        {/* <div className="job-image">
-                            <img src={props.image} alt="Job"/>
-                        </div> */}
+                        <div className="job-image-holder">
+                            <img className="job-image" src={props.image} alt="Job"/>
+                        </div>
 
                     </div>
                 </div>

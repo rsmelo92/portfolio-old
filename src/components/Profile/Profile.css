@@ -16,7 +16,7 @@
     max-width: 380px;
     min-height: 100vh;
 }
-@media (max-width:1024px){
+@media (max-width:1367px){
     .section-profile{
         width: 100%;
         min-height: auto;

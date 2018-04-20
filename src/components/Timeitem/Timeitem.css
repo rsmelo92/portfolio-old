@@ -31,6 +31,18 @@
     text-align: right;
     padding-right: 15px;
 }
+@media (max-width:1367px){
+    .date-area{
+        left:-23px;
+        top:9px;
+    }
+    .date-area:after{
+        display: none;
+    }
+    .date-show{
+        text-align: left;
+    }
+}
 
 
 
@@ -39,9 +51,24 @@
     padding-left: 30px;
     width: 88%;
 }
+@media (max-width:1366px){
+    .job-area{
+        width: 100%;
+    }    
+}
 .job-holder{
     border-bottom: solid 1px #f1f1f1;
     padding-bottom: 25px;
+}
+.job-info{
+    display: inline-block;
+    width: 60%;
+    padding-top: 30px;
+}
+@media (max-width:1366px){
+    .job-info{
+        width: 100%;
+    }    
 }
 .job-title{
     margin: 8px 0;
@@ -64,4 +91,28 @@
     margin-right: 12px;
     margin-bottom: 5px;
     font-size: 12px;
+}
+.job-image-holder{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px 0;
+}
+.job-image{
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+@media (max-width:1366px){
+    .job-image-holder{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }    
+    .job-image{
+        width: 100vw;
+        margin-left: -18vw;
+        vertical-align: unset;
+    }
 }
