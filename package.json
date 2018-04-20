@@ -2,7 +2,7 @@
   "name": "portfolioreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rsmelo92.github.io",
+  "homepage": "https://rsmelo92.github.io/portoflio",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.3.2",
@@ -12,9 +12,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
