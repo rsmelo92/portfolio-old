@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
-import Profile from './components/Profile/Profile.js';
-import Timeline from './components/Timeline/Timeline.js';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom'
+import Portfolio from './pages/Portfolio';
 
 class App extends Component {
-  render() {
-    return (
-		<div className="App">
-			<Profile/>
-			<Timeline/>
-		</div>
-    );
-  }
+	render() {
+		return (
+			<div className="App">
+				<Redirect to="/portfolio" push />
+				<Route path="/portfolio" component={Portfolio} />
+			</div>
+		);
+	}
 }
 
 export default App;
