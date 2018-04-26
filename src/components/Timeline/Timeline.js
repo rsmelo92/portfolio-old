@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Timeline.css';
 import Timeitem from '../../components/Timeitem/Timeitem.js';
+
 import bilheteriapp from './jobImages/bilheteriapp.png';
 import pks from './jobImages/pks.png';
 import concir from './jobImages/concir.png';
@@ -75,7 +76,6 @@ class Timeline extends Component {
         }
     }
     render(){
-        console.log("state", this.state.jobs);
         const jobs = this.state.jobs;
         return(
             <div className="section-timeline">
