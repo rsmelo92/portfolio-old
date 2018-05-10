@@ -26,6 +26,7 @@ class Profile extends Component {
                             </div>
                         </div>
                         <div className="third-profile">
+                            <h5>Contato</h5>
                             <div className="profile-icons">
                                 <a className="icon-link" href="https://github.com/rsmelo92"><img src={git} alt="social network icon"/></a>
                                 <a className="icon-link" href="https://www.linkedin.com/in/rafael-melo-info/"><img src={linkedin} alt="social network icon"/></a>

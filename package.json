@@ -2,7 +2,7 @@
   "name": "portfolioreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rsmelo92.github.io/portoflio",
+  "homepage": "https://rsmelo92.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.3.2",

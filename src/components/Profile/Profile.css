@@ -74,6 +74,12 @@
 .third-profile{
     padding: 30px 50px;
 }
+.third-profile h5{
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
 .profile-icons{
     width: 150px;
     margin: 0 auto;
