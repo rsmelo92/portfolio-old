@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Timeline.css';
 import Timeitem from '../../components/Timeitem/Timeitem.js';
 
+import jusbrasil from './jobImages/jusbrasil.png';
+import data4good from './jobImages/data4good.png';
 import bilheteriapp from './jobImages/bilheteriapp.png';
 import pks from './jobImages/pks.png';
 import concir from './jobImages/concir.png';
@@ -18,10 +20,24 @@ class Timeline extends Component {
             jobs:[
                 {
                     date: "Hoje",
+                    title:'Jusbrasil',
+                    desc:"Faço parte do time de desenvolvimento da Jusbrasil a maior startup Jurídica do Brasil com um stack diverso e variado de tecnologias.",
+                    tags:['REACT NATIVE', 'PYTHON','SCALA', 'JAVA', 'NODEJS', 'GO', 'FLOW', 'TEST DRIVEN DEVELOPMENT', 'JAVASCRIPT', 'REACT', 'HTML', 'CSS', 'PERFORMANCE', '...'],
+                    image: jusbrasil,
+                },
+                {
+                    date: "Jun 2018",
                     title:'Bilheteriapp',
-                    desc:"Faço parte do time de desenvolvimento da startup Bilheteriapp. Atuo no Back-end e no Front-end juntamente com a equipe.",
+                    desc:"Fiz parte do time de desenvolvimento da startup Bilheteriapp por 1 ano e 10 meses. Atuei no Back-end e no Front-end juntamente com a equipe.",
                     tags:['SCRUM', 'METEORJS','CORDOVA', 'BLAZE', 'NODEJS', 'MONGODB', 'HEROKU', 'API', 'JAVASCRIPT', 'BOOTSTRAP3', 'JQUERY', 'HTML', 'CSS',],
                     image: bilheteriapp,
+                },
+                {
+                    date: "Mai 2018",
+                    title:'Data4Good',
+                    desc:"App campeão do Hackathon da Campus Party Bahia 2018 Data4Good realizado pela Campus Party em parceria com o CappraLab, um Hackathon de análise de dados focado em Data Science.",
+                    tags:['DATA SCIENCE', 'BIG DATA', 'METEORJS','CORDOVA', 'BLAZE', 'NODEJS', 'MONGODB', 'HEROKU', 'JAVASCRIPT', 'BOOTSTRAP3', 'JQUERY', 'HTML', 'CSS',],
+                    image: data4good,
                 },
                 {
                     date: "Abr 2018",
@@ -83,7 +99,7 @@ class Timeline extends Component {
                 <p className="timeline-subheading">Todos os trabalhos abaixo tiveram o back-end e front-end feitos por mim, a menos que indicado o contrário</p>
                 <ul>
                     {jobs.map((item,index)=>(
-                        <Timeitem 
+                        <Timeitem
                             key={index}
                             title={item.title}
                             description={item.desc}
