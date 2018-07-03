@@ -22,7 +22,7 @@ class Timeline extends Component {
                     date: "Hoje",
                     title:'Jusbrasil',
                     desc:"Faço parte do time de desenvolvimento da Jusbrasil a maior startup Jurídica do Brasil com um stack diverso e variado de tecnologias.",
-                    tags:['REACT NATIVE', 'PYTHON','SCALA', 'JAVA', 'NODEJS', 'GO', 'FLOW', 'TEST DRIVEN DEVELOPMENT', 'JAVASCRIPT', 'REACT', 'HTML', 'CSS', 'PERFORMANCE', '...'],
+                    tags:['REACT NATIVE', 'PYTHON','SCALA', 'JAVA', 'NODEJS', 'GO', 'FLOW', 'TEST DRIVEN DEVELOPMENT', 'REACT', 'JAVASCRIPT', 'HTML', 'CSS', 'PERFORMANCE', '...'],
                     image: jusbrasil,
                 },
                 {
