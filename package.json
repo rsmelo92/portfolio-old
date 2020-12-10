@@ -5,7 +5,7 @@
   "homepage": "https://rsmelo92.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "react": "^16.3.2",
+    "react": "^17.0.0",
     "react-dom": "^16.3.3",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4"
