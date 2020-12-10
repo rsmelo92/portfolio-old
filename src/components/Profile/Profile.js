@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Profile.css';
-import eu from "./Eu2.jpg";
+import eu from "./new_me.jpg";
 import git from "./git.png";
 import linkedin from "./linkedin.png";
 import codepen from "./codepen.png";
-import wpp from "./wpp.png";
+import TT from "./TT.png";
 
 class Profile extends Component {
     render(){
@@ -30,8 +30,8 @@ class Profile extends Component {
                             <div className="profile-icons">
                                 <a className="icon-link" href="https://github.com/rsmelo92"><img src={git} alt="social network icon"/></a>
                                 <a className="icon-link" href="https://www.linkedin.com/in/rafael-melo-info/"><img src={linkedin} alt="social network icon"/></a>
+                                <a className="icon-link" href="https://twitter.com/rsmelo_"><img src={TT} alt="social network icon"/></a>
                                 <a className="icon-link" href="https://codepen.io/rsmelo92/"><img src={codepen} alt="social network icon"/></a>
-                                <a className="icon-link" href=""><img src={wpp} alt="social network icon"/></a>
                             </div>
                         </div>
                 </div>

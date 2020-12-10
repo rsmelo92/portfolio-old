@@ -3,6 +3,8 @@ import "./Timeline.css";
 import Timeitem from "../../components/Timeitem/Timeitem.js";
 
 import jusbrasil from "./jobImages/jusbrasil.png";
+import oo from "./jobImages/oo.jpeg";
+import consulta from "./jobImages/consulta.jpeg";
 import data4good from "./jobImages/data4good.png";
 import bilheteriapp from "./jobImages/bilheteriapp.png";
 import startseg from "./jobImages/startseg.png";
@@ -24,7 +26,7 @@ class Timeline extends Component {
           date: "Hoje",
           title: "Jusbrasil",
           desc:
-            "Faço parte do time de desenvolvimento da Jusbrasil a maior startup Jurídica do Brasil com um stack diverso e variado de tecnologias.",
+            "Faço parte do time de desenvolvimento da Jusbrasil a maior startup Jurídica do Brasil com um stack diverso e variado de tecnologias. Atuo no back-end, infra-estrutura, com aplicativos e front-end.",
           tags: [
             "REACT NATIVE",
             "PYTHON",
@@ -39,9 +41,37 @@ class Timeline extends Component {
             "HTML",
             "CSS",
             "PERFORMANCE",
+            "GCLOUD",
+            "KUBERNETES",
+            "DOCKER",
+            "DOCKER",
             "..."
           ],
           image: jusbrasil
+        },
+        {
+          date: "Jan 2020",
+          title: "Consulta Processual",
+          desc:
+            "Junto com a equipe de mobile, desenvolvi do zero o app principal de consulta processual do Brasil. Com mais de 50.000 downloads e crescendo, foi um trabalho em conjunto com os designers, time de de dev e Product Manager para utilizar as melhores tecnicas e tecnologias.",
+          tags: ["REACT-NATIVE", "JEST", "TESTING LIBRARY", "FLOW TYPES", "ENZYME", "DETOX-E2E", "WERCKER", "FIREBASE"],
+          image: consulta
+        },
+        {
+          date: "Fev 2019",
+          title: "StartSeg",
+          desc:
+            "Minha equipe ficou em terceiro lugar no Hackathon da Campus Party Brasil 12, patrocinado pela Liberty Seguros com um app de marketplace e treinamento para corretores de seguro em início de carreira.",
+          tags: ["REACT", "NETLIFY", "PYTHON", "MATERIAL-UI"],
+          image: startseg
+        },
+        {
+          date: "Mar 2019",
+          title: "Escritório Online",
+          desc:
+            "Desenvolvi junto com o time de app da Jusbrasil, o aplicativo Escritório Online lançado para iOS e Android, com mais de 10.000 instalações. Além de ajudar a desenvolver o app, fiz parte do time de manutenção e de novas features, trabalhando ao lado dos designers e dos devs",
+          tags: ["REACT-NATIVE", "JEST", "FLOW TYPES", "ENZYME", "DETOX-E2E", "WERCKER", "FIREBASE"],
+          image: oo
         },
         {
           date: "Fev 2019",
