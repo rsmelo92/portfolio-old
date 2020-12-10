@@ -44,7 +44,6 @@ class Timeline extends Component {
             "GCLOUD",
             "KUBERNETES",
             "DOCKER",
-            "DOCKER",
             "..."
           ],
           image: jusbrasil
