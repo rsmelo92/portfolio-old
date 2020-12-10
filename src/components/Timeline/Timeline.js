@@ -57,14 +57,6 @@ class Timeline extends Component {
           image: consulta
         },
         {
-          date: "Fev 2019",
-          title: "StartSeg",
-          desc:
-            "Minha equipe ficou em terceiro lugar no Hackathon da Campus Party Brasil 12, patrocinado pela Liberty Seguros com um app de marketplace e treinamento para corretores de seguro em início de carreira.",
-          tags: ["REACT", "NETLIFY", "PYTHON", "MATERIAL-UI"],
-          image: startseg
-        },
-        {
           date: "Mar 2019",
           title: "Escritório Online",
           desc:
