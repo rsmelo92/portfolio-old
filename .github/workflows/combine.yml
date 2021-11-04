@@ -15,3 +15,9 @@ jobs:
           ignoreLabel: "nocombine"
           baseBranch: "ghPages"
           openPR: true
+
+      - name: Autoclose dependabot PRs
+        uses: roots/issue-closer@v1.1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-pattern: "@dependabot"
