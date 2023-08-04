@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Timeline.css";
 import Timeitem from "../../components/Timeitem/Timeitem.js";
-
 import jusbrasil from "./jobImages/jusbrasil.png";
 import oo from "./jobImages/oo.jpeg";
 import consulta from "./jobImages/consulta.jpeg";
@@ -17,20 +16,18 @@ import cleansea from "./jobImages/cleansea.png";
 import udacity from "./jobImages/udacity.png";
 import portfolio from "./jobImages/portfolio.png";
 
+import translations from './translations_en.json';
+
 class Timeline extends Component {
   constructor() {
     super();
     this.state = {
           jobs: [
             {
-              date: "Hoje",
-              title: "Jusbrasil",
-              desc: "Faço parte do time de desenvolvimento da Jusbrasil a maior startup Jurídica do Brasil com um stack diverso e variado de tecnologias. Atuo no back-end, infra-estrutura, com aplicativos e front-end.",
-              ...
-            },
-            ...
-          ]
-        };
+              date: "Mar 2022",
+              title: translations.jusbrasilTitle,
+              desc: translations.jusbrasilDesc,
+            tags:[
             "NODEJS",
             "GO",
             "FLOW",
@@ -225,9 +222,9 @@ class Timeline extends Component {
     const jobs = this.state.jobs;
     return (
       <div className="section-timeline">
-        <h1 className="timeline-heading">Portfólio</h1>
+        <h1 className="timeline-heading">{translations.portfolio}</h1>
         <p className="timeline-subheading">
-          Todos os trabalhos abaixo tiveram o back-end e front-end feitos por mim, a menos que indicado o contrário
+          {translations.description}
         </p>
         <ul>
           {jobs.map((item, index) => (
