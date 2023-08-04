@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Timeitem.css";
 
-import translations from '../../translations_en.json';
+import translations from '../../../translations_en.json';
 
 class Timeitem extends Component {
   render() {
