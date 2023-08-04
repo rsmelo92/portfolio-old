@@ -50,41 +50,36 @@ class Timeline extends Component {
         },
         {
           date: "Jan 2020",
-          title: "Consulta Processual",
-          desc:
-            "Junto com a equipe de mobile, desenvolvi do zero o app principal de consulta processual do Brasil. Com mais de 50.000 downloads e crescendo, foi um trabalho em conjunto com os designers, time de de dev e Product Manager para utilizar as melhores tecnicas e tecnologias.",
+          title: translations.consultaTitle,
+          desc: translations.consultaDesc,
           tags: ["REACT-NATIVE", "JEST", "TESTING LIBRARY", "FLOW TYPES", "ENZYME", "DETOX-E2E", "WERCKER", "FIREBASE"],
           image: consulta
         },
         {
           date: "Mar 2019",
-          title: "Escritório Online",
-          desc:
-            "Desenvolvi junto com o time de app da Jusbrasil, o aplicativo Escritório Online lançado para iOS e Android, com mais de 10.000 instalações. Além de ajudar a desenvolver o app, fiz parte do time de manutenção e de novas features, trabalhando ao lado dos designers e dos devs",
+          title: translations.ooTitle,
+          desc: translations.ooDesc,
           tags: ["REACT-NATIVE", "JEST", "FLOW TYPES", "ENZYME", "DETOX-E2E", "WERCKER", "FIREBASE"],
           image: oo
         },
         {
           date: "Fev 2019",
-          title: "StartSeg",
-          desc:
-            "Minha equipe ficou em terceiro lugar no Hackathon da Campus Party Brasil 12, patrocinado pela Liberty Seguros com um app de marketplace e treinamento para corretores de seguro em início de carreira.",
+          title: translations.startsegTitle,
+          desc: translations.startsegDesc,
           tags: ["REACT", "NETLIFY", "PYTHON", "MATERIAL-UI"],
           image: startseg
         },
         {
           date: "Set 2018",
-          title: "Semear",
-          desc:
-            "Em um hackathon com foco no pequeno agricultor minha equipe ficou em terceiro lugar com um app de melhoria de gestão de recursos e educação do desenvolvimento sustentável do pequeno agricultor.",
+          title: translations.semearTitle,
+          desc: translations.semearDesc,
           tags: ["REACT", "CSS", "NETLIFY"],
           image: semear
         },
         {
           date: "Jun 2018",
-          title: "Bilheteriapp",
-          desc:
-            "Fiz parte do time de desenvolvimento da startup Bilheteriapp por 1 ano e 10 meses. Atuei no Back-end e no Front-end juntamente com a equipe.",
+          title: translations.bilheteriappTitle,
+          desc: translations.bilheteriappDesc,
           tags: [
             "SCRUM",
             "METEORJS",
@@ -104,9 +99,8 @@ class Timeline extends Component {
         },
         {
           date: "Mai 2018",
-          title: "Data4Good",
-          desc:
-            "App campeão do Hackathon da Campus Party Bahia 2018 Data4Good realizado pela Campus Party em parceria com o CappraLab, um Hackathon de análise de dados focado em Data Science.",
+          title: translations.data4goodTitle,
+          desc: translations.data4goodDesc,
           tags: [
             "DATA SCIENCE",
             "BIG DATA",
@@ -126,17 +120,15 @@ class Timeline extends Component {
         },
         {
           date: "Abr 2018",
-          title: "Portfolio",
-          desc:
-            "Construído este portfólio para praticar React e mostrar em que tenho trabalhado ultimamente",
+          title: translations.portfolioTitle,
+          desc: translations.portfolioDesc,
           tags: ["REACT", "HTML", "CSS", "GITHUB PAGES"],
           image: portfolio
         },
         {
           date: "Set 2017",
-          title: "Chatbot Caetano",
-          desc:
-            "Chatbot construído para o I Hackathon da UNIFACS pela minha equipe HackaTI. Ficou em primeiro lugar na competição",
+          title: translations.caetanoTitle,
+          desc: translations.caetanoDesc,
           tags: [
             "IBM WATSON",
             "METEORJS",
@@ -155,9 +147,8 @@ class Timeline extends Component {
         },
         {
           date: "Jul 2017",
-          title: "CleanSea",
-          desc:
-            "Aplicativo construído para o concurso IEEEMadc2017 no qual fiquei em terceiro lugar sozinho concorrendo com 40+ equipes do mundo todo",
+          title: translations.cleanseaTitle,
+          desc: translations.cleanseaDesc,
           tags: [
             "METEORJS",
             "CORDOVA",
@@ -176,9 +167,8 @@ class Timeline extends Component {
         },
         {
           date: "Mar 2017",
-          title: "Udacity Front End Nanodegree",
-          desc:
-            "Construção de 6 projetos para obter o certificado de Front End Nanodegree",
+          title: translations.udacityTitle,
+          desc: translations.udacityDesc,
           tags: [
             "JAVASCRIPT",
             "JASMINE",
@@ -191,9 +181,8 @@ class Timeline extends Component {
         },
         {
           date: "Out 2016",
-          title: "Congresso de TI UNIFACS",
-          desc:
-            "Site para o congresso de TI da Unifacs com cerca de 500 inscritos e constante atualização durante o evento",
+          title: translations.congressoTitle,
+          desc: translations.congressoDesc,
           tags: [
             "PHP",
             "SEO",
@@ -208,9 +197,8 @@ class Timeline extends Component {
         },
         {
           date: "Ago 2016",
-          title: "Concir",
-          desc:
-            "Site feito para a clínica odontológica Concir visando a comunicação com clientes e apresentação dos serviços. Constantemente atualizado com Redes Sociais",
+          title: translations.concirTitle,
+          desc: translations.concirDesc,
           tags: [
             "PHP",
             "CSS",
@@ -226,9 +214,8 @@ class Timeline extends Component {
         },
         {
           date: "Jun 2016",
-          title: "PKS Arquitetura",
-          desc:
-            "Site construído para empresa de avaliações e perícias de engenharia",
+          title: translations.pksTitle,
+          desc: translations.pksDesc,
           tags: ["HTML", "CSS", "SEO", "BOOTSTRAP3", "JQUERY"],
           image: pks
         }
