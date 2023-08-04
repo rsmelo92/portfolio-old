@@ -1,12 +1,12 @@
 {
-  "portfolio": "",
-  "description": "",
-  "techs": "",
-  "profileDesc": "",
-  "contact": "",
-  "jusbrasilTitle": "",
-  "jusbrasilDesc": "",
+  "portfolio": "original_translation",
+  "description": "original_translation",
+  "techs": "original_translation",
+  "profileDesc": "original_translation",
+  "contact": "original_translation",
+  "jusbrasilTitle": "original_translation",
+  "jusbrasilDesc": "original_translation",
   ...
-  "newTranslationKey": "",
-  "missingTranslationKey": ""
+  "newTranslationKey": "original_translation",
+  "missingTranslationKey": "original_translation"
 }
