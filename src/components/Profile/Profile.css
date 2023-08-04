@@ -8,7 +8,7 @@
     background-image: linear-gradient(
         rgba(20, 119, 105, .9), 
         rgba(20, 119, 105, 1)
-      ), url(./BGFB.jpg);
+      ), url(./assets/BGFB.jpg);
     background-size: cover;
     color:#eef7ff;    
     overflow: hidden;
@@ -95,4 +95,29 @@
 }
 .icon-link img{
     width: 32px;
+}
+
+.fourth-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.fourth-profile > .profile-langs {
+    display: flex;
+    justify-content: space-around;
+    width: 96px;
+}
+
+.fourth-profile > .profile-langs> button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    opacity: 0.5;
+}
+
+.fourth-profile > .profile-langs> button.active {
+    opacity: 1
 }
