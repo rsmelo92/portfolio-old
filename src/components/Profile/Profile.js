@@ -6,7 +6,7 @@ import linkedin from "./linkedin.png";
 import codepen from "./codepen.png";
 import TT from "./TT.png";
 
-import translations from '../../../translations_en.json';
+import translations from '../../translations_en.json';
 
 class Profile extends Component {
     render(){
