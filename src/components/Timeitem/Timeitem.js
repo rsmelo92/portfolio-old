@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Timeitem.css";
 
+import translations from '../Timeline/translations_en.json';
+
 class Timeitem extends Component {
   render() {
     const props = this.props;
@@ -15,7 +17,7 @@ class Timeitem extends Component {
               <h2 className="job-title">{props.title}</h2>
               <h5 className="job-subtitle">{props.description}</h5>
               <div className="job-tags-holder">
-                <p className="job-tags-title">Tecnologias utilizadas</p>
+                <p className="job-tags-title">{translations.techs}</p>
                 {props.tags.map((item, index) => (
                   <span className="job-tag" key={index}>
                     {item}

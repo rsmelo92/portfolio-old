@@ -6,6 +6,8 @@ import linkedin from "./linkedin.png";
 import codepen from "./codepen.png";
 import TT from "./TT.png";
 
+import translations from '../Timeline/translations_en.json';
+
 class Profile extends Component {
     render(){
         return(
@@ -22,11 +24,11 @@ class Profile extends Component {
                         </div>
                         <div className="second-profile">
                             <div className="profile-description">
-                                <p>Desenvolvedor Web Fullstack situado em Salvador Bahia</p>
+                                <p>{translations.profileDesc}</p>
                             </div>
                         </div>
                         <div className="third-profile">
-                            <h5>Contato</h5>
+                            <h5>{translations.contact}</h5>
                             <div className="profile-icons">
                                 <a className="icon-link" href="https://github.com/rsmelo92"><img src={git} alt="social network icon"/></a>
                                 <a className="icon-link" href="https://www.linkedin.com/in/rafael-melo-info/"><img src={linkedin} alt="social network icon"/></a>
