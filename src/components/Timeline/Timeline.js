@@ -16,7 +16,7 @@ import cleansea from "./jobImages/cleansea.png";
 import udacity from "./jobImages/udacity.png";
 import portfolio from "./jobImages/portfolio.png";
 
-import translations from '../../translations_pt.json';
+import translations from '../../translations_base.json';
 
 class Timeline extends Component {
   constructor() {
