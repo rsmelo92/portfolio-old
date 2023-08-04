@@ -12,10 +12,14 @@ export const LanguageProvider = ({ children }) => {
     if(lang.includes("pt")) return translations.PT
     return translations.EN
   }
+  const updateLanguage = (value) => {
+    const lang = translations[value]
+    setLanguage(lang)
+  }
   const [language, setLanguage] = useState(getLanguageContext());
-  console.log({language});
+
   return (
-    <LanguageContext.Provider value={{ language, setLanguage }}>
+    <LanguageContext.Provider value={{ language, updateLanguage }}>
       {children}
     </LanguageContext.Provider>
   );
