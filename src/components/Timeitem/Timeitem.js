@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Timeitem.css";
 
 import translations from '../../translations_en.json';
@@ -24,8 +24,6 @@ class Timeitem extends Component {
                   </span>
                 import React from "react";
                 import "./Timeitem.css";
-                
-                import translations from '../../translations_en.json';
                 
                 function Timeitem(props) {
                   return (
@@ -55,5 +53,4 @@ class Timeitem extends Component {
                     </li>
                   );
                 }
-                
                 export default Timeitem;
