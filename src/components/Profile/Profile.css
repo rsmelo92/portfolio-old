@@ -8,7 +8,7 @@
     background-image: linear-gradient(
         rgba(20, 119, 105, .9), 
         rgba(20, 119, 105, 1)
-      ), url(./BGFB.jpg);
+      ), url(./assets/BGFB.jpg);
     background-size: cover;
     color:#eef7ff;    
     overflow: hidden;
